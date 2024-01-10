@@ -34,3 +34,12 @@ Content-Type: application/json
     "content": "Updated content"
 }
 ```
+
+#Same origin policy
+Jotta voi käyttää eri localhostin porteissa olevia asioita yhteen, niin:
+
+1. Asennetaan backendiin cors
+```npm install cors```
+
+#Frontin tuotantoversio
+Viten avulla tehdyistä sovelluksista saadaan tehtyä tuotantoversio komennolla ```npm run build```.
